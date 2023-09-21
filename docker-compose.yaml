@@ -2,7 +2,7 @@ version: '3.8'
 
 services: 
   app: 
-    image: conversao-temperatura
+    image: joaoinvernal/converter-temperatura-js:v1
     ports:
       - 8080:8080
     
